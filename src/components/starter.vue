@@ -27,8 +27,8 @@ const lists = computed<ILink[]>(() => [
           class="h-20 w-20 rounded-full"
           height="160"
           width="160"
-          src="https://avatars.githubusercontent.com/u/38668796?v=4"
-          alt="productdevbook"
+          src="https://cdn-icons-png.flaticon.com/256/9041/9041378.png"
+          alt="astronaut"
         >
 
         <div

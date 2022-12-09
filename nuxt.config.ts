@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         },
       }),
     ],
-    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-turkey'],
+    safelist: ['i-twemoji-flag-us-outlying-islands', 'i-twemoji-flag-laos'],
   },
 
   // localization - i18n config
@@ -39,9 +39,9 @@ export default defineNuxtConfig({
         code: 'en',
         file: 'en-US.json',
       },
-      { code: 'tr', file: 'tr-TR.json' },
+      { code: 'la', file: 'la-LA.json' },
     ],
-    defaultLocale: 'tr',
+    defaultLocale: 'la',
     lazy: true,
     langDir: 'locales/',
     strategy: 'prefix_except_default',
@@ -52,9 +52,9 @@ export default defineNuxtConfig({
     },
     vueI18n: {
       legacy: false,
-      locale: 'tr',
-      fallbackLocale: 'tr',
-      availableLocales: ['en', 'tr'],
+      locale: 'la',
+      fallbackLocale: 'la',
+      availableLocales: ['en', 'la'],
     },
   },
 
