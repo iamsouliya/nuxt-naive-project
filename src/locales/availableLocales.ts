@@ -12,7 +12,7 @@ export const availableLocales: ILocales = {
     iso: 'en',
     flag: 'i-twemoji-flag-us-outlying-islands',
   },
-  tr: {
+  la: {
     name: 'Lao',
     iso: 'la',
     flag: 'i-twemoji-flag-laos',
